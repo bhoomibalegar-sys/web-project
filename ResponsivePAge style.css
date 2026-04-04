@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
