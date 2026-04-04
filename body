@@ -1,0 +1,5 @@
+<h2>Progress Bar</h2>
+<div class="progress-container">
+  <div id="progress-bar"></div>
+</div>
+<button onclick="move()">Start</button>
